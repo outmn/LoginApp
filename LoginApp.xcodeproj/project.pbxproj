@@ -17,6 +17,8 @@
 		AE64768D1E1BD3A900253F6E /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64768C1E1BD3A900253F6E /* PageCell.swift */; };
 		AE64768F1E1BD3C600253F6E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64768E1E1BD3C600253F6E /* Page.swift */; };
 		AE6476911E1BD3E500253F6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6476901E1BD3E500253F6E /* Extensions.swift */; };
+		AE6476931E1BDC0100253F6E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6476921E1BDC0100253F6E /* MainNavigationController.swift */; };
+		AE6476951E1BE95200253F6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6476941E1BE95200253F6E /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AE64768C1E1BD3A900253F6E /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		AE64768E1E1BD3C600253F6E /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		AE6476901E1BD3E500253F6E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AE6476921E1BDC0100253F6E /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		AE6476941E1BE95200253F6E /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				AE6476751E1BD29600253F6E /* AppDelegate.swift */,
+				AE6476921E1BDC0100253F6E /* MainNavigationController.swift */,
+				AE6476941E1BE95200253F6E /* HomeController.swift */,
 				AE6476771E1BD29600253F6E /* LoginController.swift */,
 				AE64768A1E1BD38700253F6E /* LoginCell.swift */,
 				AE64768C1E1BD3A900253F6E /* PageCell.swift */,
@@ -154,8 +160,10 @@
 			files = (
 				AE64767E1E1BD29600253F6E /* LoginApp.xcdatamodeld in Sources */,
 				AE64768D1E1BD3A900253F6E /* PageCell.swift in Sources */,
+				AE6476931E1BDC0100253F6E /* MainNavigationController.swift in Sources */,
 				AE64768F1E1BD3C600253F6E /* Page.swift in Sources */,
 				AE6476781E1BD29600253F6E /* LoginController.swift in Sources */,
+				AE6476951E1BE95200253F6E /* HomeController.swift in Sources */,
 				AE6476761E1BD29600253F6E /* AppDelegate.swift in Sources */,
 				AE64768B1E1BD38700253F6E /* LoginCell.swift in Sources */,
 				AE6476911E1BD3E500253F6E /* Extensions.swift in Sources */,
